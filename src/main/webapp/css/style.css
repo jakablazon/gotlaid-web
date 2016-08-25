@@ -1,0 +1,201 @@
+.h{
+	background-image: url("rectangle-105.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 961px;
+	background-size: cover;
+}
+.wrapper123{
+	float:right;
+	position:relative;
+	right:23px;
+	display:inline-block;
+}
+.wrapper223{ 
+	position:relative;
+	display:inline-block;
+}
+.wrapperphone{
+	float:right;
+	position:relative;
+	margin-top:64px;
+	right:216px;
+	z-index: 2;
+}
+.picture-phone { 
+	width: 407px;
+	height: 836px; 
+	object-fit: contain;
+}
+.btn-custom {
+	border-radius: 100px;
+	background-color: #16a085; 
+	box-shadow: 0 16px 24px 0 rgba(9, 13, 52, 0.5);
+	padding-top:27px;
+	padding-bottom:27px;
+	padding-left:138px;
+	padding-right:95.4px
+}
+.btn-custom2 {
+	border-radius: 100px; 
+	background-color: #16a085; 
+	box-shadow: 0 16px 24px 0 rgba(9, 13, 52, 0.5);
+	padding-right:119.4px;
+	padding-top:27px;
+	padding-left:170.2px;
+	padding-bottom:27px;
+	position:relative;
+}
+.rectangle-4 {
+	width: 19px;
+	height: 5px;
+	object-fit: contain;
+	border-radius: 2.5px;
+	background-color: #16a085;
+	position:absolute;
+	top:24px;
+	left:0px;
+	z-index:1
+}
+.rectangle-4 {
+	width: 19px;
+	height: 5px;
+	object-fit: contain;
+	border-radius: 2.5px;
+	background-color: #16a085;
+	position:absolute;
+	top:24px;
+	left:0px;
+	z-index:1
+}
+.bela-pot{
+	background-color:#ffffff;
+	width: 100%;
+	height: 208px;
+	top:111px;
+	position:relative;			
+}
+.bela-pot-odsek{
+	background-color:#ffffff;
+	width: 100%;
+	height:89px;
+	top:63px;
+	position:absolute;
+	margin-left: 50%;
+	left:48px;
+}
+.siva-pot{
+	background-color:#f5f4f9;
+	width: 100%;
+	height: 256px;
+	top:0px;
+	position:relative;
+}
+.siva-pot-odsek{
+	background-color:#f5f4f9;
+	width:100%;
+	height:145px;
+	top:55px;
+	position:absolute;
+	left:48px;
+	margin-left: 50%;
+}
+.zelena-pot{
+	background-color:#16a085;
+	width: 100%;
+	height: 299px;
+	top:0px;
+	position:relative;
+}
+.zelena-pot-odsek{
+	background-color:#16a085;
+	width:100%;
+	height:117px;
+	top:82px;
+	position:absolute;
+	left:48px;
+	margin-left: 50%;
+}
+.features-cesta{
+	height:177px;
+	width: 100%;
+	background-color: #ffffff;
+	top:0px;
+	position: relative;
+	}
+.features-odsek-features{
+	margin-left:50%;
+	left:48px;
+	position:absolute;
+	
+}
+@media screen and (max-width: 1200px) {
+	.wrapper123 {
+		float:none;
+		left:0px;
+	}
+	.right-side{
+		text-align: center;
+		right:8px;
+	}
+	.apple{
+		margin-top:0px;
+		top:0px; 
+	}
+	.play{
+		left:84px;
+	 }
+	.textbtn {
+		text-align: left;
+	}
+	.textbtn2 {
+		text-align: left;
+	}
+	.picture-phone{
+		width:100%;
+	}
+	.h{
+		height: 1600px;
+	}
+	.wrapper-Features{
+		text-align: center;
+	}
+	.span-features{
+		margin-left: 0px;
+	}
+	.naslov-1{
+		width:90%;
+	}
+}
+@media screen and (max-width: 1300px){
+	.wrapperphone{
+		right:0px;
+		width:100%;
+	}
+}
+@media screen and (min-width: 1920px) {
+	.h{
+		height: 100vh
+	}
+}
+@media screen and (max-width: 1967px){
+	.naslov-1{
+		width:90%;
+	}
+}
+@media screen and (max-width: 767px){
+	html{
+		width:767px;
+	}
+}
+@media screen and (max-width: 767px){
+	.bela-pot-odsek{
+		width: 90%;
+	}
+	.siva-pot-odsek{
+		width:90%;
+	}
+	.zelena-pot-odsek{
+		width: 90%;
+	}
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+
+    <application>gotlaid-152e1</application>
+    <module>default</module>
+    <version>v1</version>
+
+    <threadsafe>true</threadsafe>
+
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="DEFAULT_ENCODING" value="UTF-8"/>
+    </system-properties>
+
+    <inbound-services>
+        <service>warmup</service>
+    </inbound-services>
+
+    <warmup-requests-enabled>true</warmup-requests-enabled>
+
+    <sessions-enabled>false</sessions-enabled>
+
+    <precompilation-enabled>true</precompilation-enabled>
+    <instance-class>F1</instance-class>
+
+    <automatic-scaling>
+        <max-idle-instances>1</max-idle-instances>
+        <max-concurrent-requests>50</max-concurrent-requests>
+        <max-pending-latency>15000ms</max-pending-latency>
+    </automatic-scaling>
+
+    <static-files>
+        <include path="/**.png" expiration="30d"/>
+        <include path="/**.jpg" expiration="30d"/>
+        <include path="/**.otf" expiration="30d"/>
+        <include path="/**.js" expiration="30d"/>
+        <include path="/**.css" expiration="30d"/>
+        <include path="/**.ico" expiration="30d"/>
+        <include path="/**.svg" expiration="30d"/>
+        <include path="/**" expiration="5"/>
+    </static-files>
+</appengine-web-app>

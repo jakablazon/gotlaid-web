@@ -1,0 +1,18 @@
+{
+  "name": "gotlaid-web",
+  "version": "0.0.1",
+  "description": "js packages",
+  "author": "dean",
+  "dependencies": {
+    "grunt-text-replace": "*",
+    "jit-grunt": "*",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "critical": "git://github.com/addyosmani/critical.git#vinyl",
+    "grunt": "^0.4.5",
+    "grunt-criticalcss": "^1.0.2",
+    "jit-grunt": "^0.10.0",
+    "shelljs": "^0.6.0"
+  }
+}
