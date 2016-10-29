@@ -201,6 +201,7 @@
 }
 
 .download-row{
-	cursor: pointer;
 	font-size: 30px;
+	cursor: pointer;
+	text-decoration: none;
 }
