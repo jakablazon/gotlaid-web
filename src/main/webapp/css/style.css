@@ -11,7 +11,7 @@
 	right:23px;
 	display:inline-block;
 }
-.wrapper223{ 
+.wrapper223{
 	position:relative;
 	display:inline-block;
 }
@@ -22,14 +22,14 @@
 	right:216px;
 	z-index: 2;
 }
-.picture-phone { 
+.picture-phone {
 	width: 407px;
-	height: 836px; 
+	height: 836px;
 	object-fit: contain;
 }
 .btn-custom {
 	border-radius: 100px;
-	background-color: #16a085; 
+	background-color: #16a085;
 	box-shadow: 0 16px 24px 0 rgba(9, 13, 52, 0.5);
 	padding-top:27px;
 	padding-bottom:27px;
@@ -37,8 +37,8 @@
 	padding-right:95.4px
 }
 .btn-custom2 {
-	border-radius: 100px; 
-	background-color: #16a085; 
+	border-radius: 100px;
+	background-color: #16a085;
 	box-shadow: 0 16px 24px 0 rgba(9, 13, 52, 0.5);
 	padding-right:119.4px;
 	padding-top:27px;
@@ -73,7 +73,7 @@
 	width: 100%;
 	height: 208px;
 	top:111px;
-	position:relative;			
+	position:relative;
 }
 .bela-pot-odsek{
 	background-color:#ffffff;
@@ -127,7 +127,7 @@
 	margin-left:50%;
 	left:48px;
 	position:absolute;
-	
+
 }
 @media screen and (max-width: 1200px) {
 	.wrapper123 {
@@ -140,7 +140,7 @@
 	}
 	.apple{
 		margin-top:0px;
-		top:0px; 
+		top:0px;
 	}
 	.play{
 		left:84px;
@@ -198,4 +198,9 @@
 	.zelena-pot-odsek{
 		width: 90%;
 	}
+}
+
+.download-row{
+	cursor: pointer;
+	font-size: 30px;
 }
